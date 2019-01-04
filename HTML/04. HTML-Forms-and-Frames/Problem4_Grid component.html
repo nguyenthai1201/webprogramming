@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+    td,th  {
+     border:solid 1px #c8bfbf;
+     font-weight: normal;
+ }
+ table {
+    border-collapse: collapse;
+}
+
+tr {
+ text-align:left;
+ font-weight: normal;
+}
+a{
+ text-decoration: none;
+}
+a:hover {
+  padding: 3px;
+  border: 1px solid #C95C05;
+  border-radius: 3px;
+}
+tbody{
+ background: #f2ecec;
+}
+tfoot{
+    background: linear-gradient(top, #f2ecec 10%, #d3dddd 60%);
+
+    background:-o-linear-gradient(top, #f2ecec, #d3dddd);
+
+    background:-moz-linear-gradient(top, #f2ecec, #d3dddd);
+
+    background:-webkit-gradient(linear, left top, left bottom, from(#f2ecec), to(#d3dddd));
+
+}
+.btn {
+    padding: 0px 0px 0px 3px;
+    position: absolute;
+}
+.col1{
+ width: 50px;
+}
+.col2 {
+ width: 300px;
+}
+.col3 {
+ width: 150px
+}
+.col4 {
+ width: 170px;
+}
+.intput1 {
+ width: 30px;
+ 
+}
+.intput2{
+ width: 70px;
+}
+.pages {
+ float:right;
+}
+.header {
+ background:#d3dddd
+ 
+}
+.title {
+
+    background: linear-gradient(top, #f2ecec 10%, #d3dddd 60%);
+
+    background:-o-linear-gradient(top, #f2ecec, #d3dddd);
+
+    background:-moz-linear-gradient(top, #f2ecec, #d3dddd);
+
+    background:-webkit-gradient(linear, left top, left bottom, from(#f2ecec), to(#d3dddd));
+
+}
+</style>
+</head>
+<body>
+    <table cellpadding="5" cellspacing="5">
+        <colgroup>
+            <col class="col1" />
+            <col class="col2"/>
+            <col class="col3"/>
+            <col class="col4"/>
+            <col class="col3"/>
+            <col class="col1"/>
+        </colgroup>
+        <thead>
+            <tr class="header">
+                <th colspan="6">Drag a column header and drop it here to group by that column</th>
+            </tr>
+            <tr class="title">
+                <th>ProductID</th>
+                <th>Product name</th>
+                <th>Unit price</th>
+                <th>Quantity per unit</th>
+                <th>Units in stock</th>
+                <th>Disontinued</th>
+            </tr>
+            <tr class="header">
+                <th>
+                    <input type="text" name="productId" class="intput1" />
+                </th>
+                <th>
+                    <input type="text" name="product_name" />
+                </th>
+                <th>
+                    <input type="text" name="unit_price" class="intput2" />
+                    <input type="image" src="img\0.png" class="btn" />
+                </th>
+                <th>
+                    <input type="text" name="quabtity_per_unit" class="intput2" />
+                </th>
+                <th>
+                    <input type="text" name="units_in_sotck" class="intput2" />
+                    <input type="image" src="img\0.png" class="btn" />
+                </th>
+                <th>
+                    <input type="checkbox" name="discontinued" />
+                    <input type="image" src="img\0.png" class="btn" />
+                </th>
+            </tr>
+            <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chai</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td><input type="checkbox" name="check1" /></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Chang</td>
+                    <td>$19.00</td>
+                    <td>21-12 oz bottles</td>
+                    <td>17</td>
+                    <td><input type="checkbox" name="check2" /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Aniseed Syrup</td>
+                    <td>$10.00</td>
+                    <td>12-550 ml bottles</td>
+                    <td>13</td>
+                    <td><input type="checkbox" name="check3" /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Chef Anton's Cajun Seasoning</td>
+                    <td>$22.00</td>
+                    <td>48-6 oz jars</td>
+                    <td>53</td>
+                    <td><input type="checkbox" name="check4" /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Chef Anton's Gumbo Mix</td>
+                    <td>$21.35</td>
+                    <td>36 boxes</td>
+                    <td>0</td>
+                    <td><input type="checkbox" name="check5" /></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Grandma's Boysenberry Spread</td>
+                    <td>$25.00</td>
+                    <td>22-8 oz jars</td>
+                    <td>120</td>
+                    <td><input type="checkbox" name="check6" /></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Uncel Bob's Organic Dried Pears</td>
+                    <td>$30.00</td>
+                    <td>21-1 lb pkgs.</td>
+                    <td>15</td>
+                    <td><input type="checkbox" name="check7" /></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Nrrthwoods Cranberry Sauce</td>
+                    <td>$40.00</td>
+                    <td>12-12 oz jars</td>
+                    <td>6</td>
+                    <td><input type="checkbox" name="check8" /></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Mishi Kobe Niku</td>
+                    <td>$97.00</td>
+                    <td>18-500 g pks.</td>
+                    <td>29</td>
+                    <td><input type="checkbox" name="check9" /></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Ikura</td>
+                    <td>$31.00</td>
+                    <td>12-200 ml fars</td>
+                    <td>31</td>
+                    <td><input type="checkbox" name="check10" /></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        <input type="image" src="img\1.png" />
+                        <input type="image" src="img\2.png" />
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <a href="#">10</a>
+                        ...
+                        <input type="image" src="img\3.png" />
+                        <input type="image" src="img\4.png" />
+
+                        <label for="page_size">Page size</label>
+                        <select name="degree" id="degree">
+                            <option value="10" >10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+
+                        <label class="pages">335104 items in 33511 pages</label> 
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+    </html>
