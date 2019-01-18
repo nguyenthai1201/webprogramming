@@ -1,0 +1,59 @@
+	body {
+	color: #9F9F9F;
+}
+main {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#members-login {
+	width: 680px;
+	background-color: #3B3B3B;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	height: 100%;
+}
+#logo {
+	float:left;
+	margin-left: 15px;
+}
+#login-btn {
+	background-image: url('../images/btn.png');
+	margin-left: 20px;
+	width: 56px;
+	height: 28px;
+	background-color: #3B3B3B;
+	border: none;
+	outline: none;
+	color: #FFF;
+}
+#login-info {
+	color: #FFF;
+	font-size: 22px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+header {
+	background-color: #343434;
+    border-bottom: 5px solid #2E2E2E;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    padding: 20px 0 35px 0;
+}
+
+#about-header {
+	color: #FCD61B;
+	font-weight: 500;
+	margin-left: 20px;
+}
+#text {
+	font-family: serif;
+	color: #A5A5A5;
+	font-weight: 100;
+	margin: 20px;
+}
+#special {
+	color: #FFF;
+}

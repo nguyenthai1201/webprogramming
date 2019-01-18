@@ -1,0 +1,205 @@
+body, main, div, header, h1, h2, h3, article, p, a, aside, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: Verdana;
+}
+main {
+  border: 1px solid #000000;
+  background-color: #F1F1F1;
+  height: 810px;
+  margin: 5px auto;
+  position: relative;
+}
+main ul {
+  list-style: none;
+}
+main h2 {
+  background-color: #808080;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  padding-left: 5px;
+}
+main h3 {
+  color: #7A0000;
+  font-size: 15px;
+}
+main p {
+  margin: 10px;
+  font-size: 14px;
+}
+main button:active {
+  position: relative;
+  top: 2px;
+}
+main #mainContent {
+  position: fixed;
+  top: 10px;
+  left: 16.5%;
+  z-index: 2;
+  width: 65%;
+  border: 1px solid #000000;
+  background-color: #fff;
+}
+main #mainContent header {
+  padding-top: 15px;
+}
+main #mainContent a {
+  padding-left: 10px;
+}
+main #mainContent a:link {
+  color: #931412;
+}
+main #mainContent a:visited {
+  color: #e42927;
+}
+main #mainContent hr {
+  border: 1.5px solid #999;
+}
+main #mainContent .prevButton,
+main #mainContent .nextButton {
+  border: 2px solid #000;
+  text-align: center;
+  width: 15%;
+  height: 25px;
+}
+main .prevButton {
+  background: transparent;
+  background-image: url(../images/leftAr.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: 1% 50%;
+  padding: 0 11px;
+  margin-left: 5px;
+}
+main .nextButton {
+  background: transparent;
+  background-image: url(../images/rightAr.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: 99% 50%;
+}
+main h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+main article {
+  padding: 5px 0;
+}
+main #mainArticle {
+  overflow: hidden;
+}
+main #mainArticle p {
+  font-weight: bold;
+}
+main #mainArticle img {
+  float: left;
+  padding: 5px 5px 0;
+  border: hidden;
+}
+main #mainArticle a {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 15px;
+}
+#navigation {
+  width: 15%;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+#navigation h2 {
+  display: inline-block;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 0 5px;
+  margin-left: 25px;
+}
+#navigation h2:before {
+  background-image: url(../images/home.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  content: " ";
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+#navigation nav {
+  margin: 15px 0;
+  font-size: 15px;
+}
+#navigation a {
+  text-decoration: none;
+  color: #000;
+}
+#other {
+  width: 15%;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+#other div {
+  border: 1px solid #000000;
+  margin-bottom: 2.5px;
+  background-color: #fff;
+}
+#other a {
+  display: inline-block;
+  margin: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+  width: 91%;
+}
+#other a:link {
+  color: #931412;
+}
+#other a:visited {
+  color: #e42927;
+}
+#other h2 {
+  width: 98%;
+  padding-bottom: 2px;
+  display: inline-block;
+  text-align: center;
+}
+#other input[type=text] {
+  border: 1px solid #88A5BE;
+  width: 70%;
+  height: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#other input[type="button"] {
+  border: 1px solid #11487B;
+  height: 18px;
+}
+#other #buttonImageGen {
+  display: block;
+  border: 2px solid #4786B5;
+  color: #3ACCFE;
+  height: 35px;
+  width: 70%%;
+  margin: 5px auto;
+
+  background: -webkit-linear-gradient(left, #93d4f7 0%, #cae7f6 11%, #f2f2f2 49%, #c2e4f6 88%, #a1d8f6 100%);
+  background: -o-linear-gradient(left, #93d4f7 0%, #cae7f6 11%, #f2f2f2 49%, #c2e4f6 88%, #a1d8f6 100%);
+  background: -ms-linear-gradient(left, #93d4f7 0%, #cae7f6 11%, #f2f2f2 49%, #c2e4f6 88%, #a1d8f6 100%);
+  background: -moz-linear-gradient(left, #93d4f7 0%, #cae7f6 11%, #f2f2f2 49%, #c2e4f6 88%, #a1d8f6 100%);
+  background: linear-gradient(to right, #93d4f7 0%, #cae7f6 11%, #f2f2f2 49%, #c2e4f6 88%, #a1d8f6 100%);
+}
+#other #adds {
+  border: 0;
+}
+#other #adds a {
+  background-color: #fff;
+  border: 1px solid #000000;
+  margin: 2px 0;
+  padding: 10px ;
+}

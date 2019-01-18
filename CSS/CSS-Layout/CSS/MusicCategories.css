@@ -1,0 +1,62 @@
+body, section, div, button, p, h2 {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:# FFFFFF;
+}
+section {
+    width:580px;
+    padding:1%;
+    margin:1%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+
+    background: #29b8e5; 
+    background: linear-gradient(to right, #b3dced 0%,#29b8e5 50%,# FFFFFF 100%); 
+}
+h2 {
+    margin-left: 3%;
+}
+div {
+    position: relative;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    width: 540px;
+    border: 1px solid ; 
+    background-color: rgb(255,255,255)
+}
+img {
+    float:left;
+    margin: 2%;
+}
+p {
+    width: 95%;
+    margin-top: 2%
+}
+button {
+    bottom: 10px;
+    width: 12%;
+    height: 25px;
+    border-radius: 5px;
+    border:1px solid;
+    background-image:url(../images/Button.jpg);
+    background-position: center;
+    background-size:80px;
+    background-repeat: no-repeat;
+}
+div button:first-of-type {
+    position: absolute;
+    right: 17%;
+}
+div button:last-of-type {
+    position: absolute;
+    right: 5%;
+    width: 11%;
+}
+button:active {
+    bottom: 9px;
+}
